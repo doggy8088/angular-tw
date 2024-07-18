@@ -30,7 +30,7 @@
         {%- endif %}
 
         {%- if parameter.isOptional or parameter.defaultValue !== undefined %}
-        {% marked %}可选值。默认值为 `{$ parameter.defaultValue === undefined and 'undefined' or parameter.defaultValue $}`。{% endmarked %}
+        {% marked %}可選值。預設值為 `{$ parameter.defaultValue === undefined and 'undefined' or parameter.defaultValue $}`。{% endmarked %}
         {%- endif %}
       </td>
     </tr>
@@ -38,6 +38,6 @@
   </tbody>
 </table>
 {%- else -%}
-<p>没有参数。</p>
+<p>沒有引數。</p>
 {%- endif -%}
 {%- endmacro -%}

@@ -12,7 +12,7 @@ function MyComponent_ng_template_0_Template(rf, ctx) {
 }
 …
 decls: 1, vars: 0, consts: function() {
-  __i18nMsg__('Some content: {$interpolation}', [['interpolation', String.raw`\uFFFD0\uFFFD`]], {})
+  __i18nMsg__('Some content: {$interpolation}', [['interpolation', String.raw`�0�`]], {})
   return [$i18n_0$];
 },
 template: function MyComponent_Template(rf, ctx) {

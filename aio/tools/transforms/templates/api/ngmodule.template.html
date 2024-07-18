@@ -32,7 +32,7 @@
   <h2>{$ itemType $}</h2>
   <table class="is-full-width list-table {$ cssClass $}-table">
     <thead>
-      <tr><th>名称</th><th>说明</th></tr>
+      <tr><th>名稱</th><th>說明</th></tr>
     </thead>
     <tbody>
     {% for item in items %}
@@ -43,7 +43,7 @@
           </a>
         </td>
         <td>
-          {% if item.deprecated !== undefined %}<div no-translate>{$ ('**已弃用:** ' + item.deprecated) | marked $}</div>{% endif %}
+          {% if item.deprecated !== undefined %}<div no-translate>{$ ('**已棄用:** ' + item.deprecated) | marked $}</div>{% endif %}
           {$ item.shortDescription | marked $}
         </td>
       </tr>
@@ -59,13 +59,13 @@
 {% block details %}
   {% block additional %}{% endblock %}
   {% include "includes/description.html" %}
-  {$ memberHelpers.renderProperties(doc.staticProperties, 'static-properties', 'static-property', '静态属性') $}
-  {$ memberHelpers.renderMethodDetails(versionInfo, doc.staticMethods, 'static-methods', 'static-method', '静态方法') $}
+  {$ memberHelpers.renderProperties(doc.staticProperties, 'static-properties', 'static-property', '靜態屬性') $}
+  {$ memberHelpers.renderMethodDetails(versionInfo, doc.staticMethods, 'static-methods', 'static-method', '靜態方法') $}
   {% if doc.constructorDoc %}
-  <h2 id="constructor">构造函数</h2>
+  <h2 id="constructor">建構式函式</h2>
   {$ memberHelpers.renderMethodDetail(versionInfo, doc.constructorDoc, 'constructor') $}{% endif %}
 
-  {$ memberHelpers.renderProperties(doc.properties, 'instance-properties', 'instance-property', '属性') $}
+  {$ memberHelpers.renderProperties(doc.properties, 'instance-properties', 'instance-property', '屬性') $}
 
   {$ memberHelpers.renderMethodDetails(versionInfo, doc.methods, 'instance-methods', 'instance-method', '方法') $}
 
@@ -80,7 +80,7 @@
   {% endif %}
   {% if doc.pipes.length %}
     <a name="pipes"></a>
-    {$ renderExports(doc.pipes, 'pipe', '管道') $}
+    {$ renderExports(doc.pipes, 'pipe', '通道') $}
   {% endif %}
 
 {% endblock %}

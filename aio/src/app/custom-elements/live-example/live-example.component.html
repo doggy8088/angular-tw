@@ -7,7 +7,7 @@
       <aio-embedded-stackblitz [src]="stackblitz"></aio-embedded-stackblitz>
     </div>
     <p *ngIf="enableDownload">
-      你还可以 <a [href]="zip" download title="下载范例">下载这个例子</a>。
+      你還可以 <a [href]="zip" download title="下載範例">下載這個例子</a>。
     </p>
   </span>
   <span *ngSwitchCase="'downloadOnly'">
@@ -16,7 +16,7 @@
   <span *ngSwitchDefault>
     <a [href]="stackblitz" target="_blank" title="{{title}}">{{title}}</a>
     <span *ngIf="enableDownload">
-      / <a [href]="zip" download title="下载范例">下载范例</a>
+      / <a [href]="zip" download title="下載範例">下載範例</a>
     </span>
   </span>
 </span>

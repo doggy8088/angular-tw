@@ -5,22 +5,22 @@
 {% block overview %}{% endblock %}
 
 {% block details -%}
-  {$ ngModuleHelpers.ngModuleList(doc.ngModules, '导出自') $}
+  {$ ngModuleHelpers.ngModuleList(doc.ngModules, '匯出自') $}
   {% include "includes/selectors.html" %}
 
-  {$ memberHelpers.renderDirectiveProperties(doc, '属性') $}
+  {$ memberHelpers.renderDirectiveProperties(doc, '屬性') $}
   {% include "includes/export-as.html" %}
 
   {%- if doc.description or doc.usageNotes %}
   <section class="description">
-    <h2 id="description">说明</h2>
+    <h2 id="description">說明</h2>
     {$ (doc.description or '') | trimBlankLines | marked $}
     {$ (doc.usageNotes or '') | trimBlankLines | marked $}
   </section>
   {%- endif %}
 
-  {$ memberHelpers.renderProperties(doc.staticProperties, 'static-properties', 'static-property', '静态属性') $}
-  {$ memberHelpers.renderMethodDetails(versionInfo, doc.staticMethods, 'static-methods', 'static-method', '静态方法') $}
+  {$ memberHelpers.renderProperties(doc.staticProperties, 'static-properties', 'static-property', '靜態屬性') $}
+  {$ memberHelpers.renderMethodDetails(versionInfo, doc.staticMethods, 'static-methods', 'static-method', '靜態方法') $}
   {$ memberHelpers.renderMethodDetails(versionInfo, doc.methods, 'instance-methods', 'instance-method', '方法') $}
   {$ memberHelpers.renderDirectiveAncestors(doc, 'methods') $}
 {%- endblock %}

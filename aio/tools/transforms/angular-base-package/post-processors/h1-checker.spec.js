@@ -19,7 +19,7 @@ describe('h1Checker postprocessor', () => {
       docType: 'a',
       renderedContent: `
         <h1>Heading 1</h2>
-        <h1>标题1</h2>
+        <h1>標題1</h2>
         <h2>Heading 2</h2>
         <h1>Heading 1a</h1>
     `

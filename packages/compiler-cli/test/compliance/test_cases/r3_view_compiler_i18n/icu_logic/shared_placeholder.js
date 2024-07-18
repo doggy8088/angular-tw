@@ -25,7 +25,7 @@ consts: function() {
       $I18N_1$ = $localize `{VAR_SELECT, select, male {male} female {female} other {other}}`;
   }
   $I18N_1$ = $r3$.ɵɵi18nPostprocess($I18N_1$, {
-    "VAR_SELECT": "\uFFFD0\uFFFD"
+    "VAR_SELECT": "�0�"
   });
 
   let $I18N_2$;
@@ -37,7 +37,7 @@ consts: function() {
       $I18N_2$ = $localize `{VAR_SELECT, select, male {male} female {female} other {other}}`;
   }
   $I18N_2$ = $r3$.ɵɵi18nPostprocess($I18N_2$, {
-    "VAR_SELECT": "\uFFFD1\uFFFD"
+    "VAR_SELECT": "�1�"
   });
 
   let $I18N_4$;
@@ -49,21 +49,21 @@ consts: function() {
       $I18N_4$ = $localize `{VAR_SELECT, select, male {male} female {female} other {other}}`;
   }
   $I18N_4$ = $r3$.ɵɵi18nPostprocess($I18N_4$, {
-    "VAR_SELECT": "\uFFFD0:1\uFFFD"
+    "VAR_SELECT": "�0:1�"
   });
 
   let $I18N_0$;
   if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
       const $MSG_APP_SPEC_TS_0$ = goog.getMsg(" {$icu} {$startTagDiv} {$icu} {$closeTagDiv}{$startTagDiv_1} {$icu} {$closeTagDiv}", {
-        "startTagDiv": "\uFFFD#2\uFFFD",
-        "closeTagDiv": "[\uFFFD/#2\uFFFD|\uFFFD/#1:1\uFFFD\uFFFD/*3:1\uFFFD]",
-        "startTagDiv_1": "\uFFFD*3:1\uFFFD\uFFFD#1:1\uFFFD",
-        "icu": "\uFFFDI18N_EXP_ICU\uFFFD"
+        "startTagDiv": "�#2�",
+        "closeTagDiv": "[�/#2�|�/#1:1��/*3:1�]",
+        "startTagDiv_1": "�*3:1��#1:1�",
+        "icu": "�I18N_EXP_ICU�"
       });
       $I18N_0$ = $MSG_APP_SPEC_TS_0$;
   }
   else {
-      $I18N_0$ = $localize ` ${"\uFFFDI18N_EXP_ICU\uFFFD"}:ICU@@7670372064920373295: ${"\uFFFD#2\uFFFD"}:START_TAG_DIV: ${"\uFFFDI18N_EXP_ICU\uFFFD"}:ICU@@7670372064920373295: ${"[\uFFFD/#2\uFFFD|\uFFFD/#1:1\uFFFD\uFFFD/*3:1\uFFFD]"}:CLOSE_TAG_DIV:${"\uFFFD*3:1\uFFFD\uFFFD#1:1\uFFFD"}:START_TAG_DIV_1: ${"\uFFFDI18N_EXP_ICU\uFFFD"}:ICU@@7670372064920373295: ${"[\uFFFD/#2\uFFFD|\uFFFD/#1:1\uFFFD\uFFFD/*3:1\uFFFD]"}:CLOSE_TAG_DIV:`;
+      $I18N_0$ = $localize ` ${"�I18N_EXP_ICU�"}:ICU@@7670372064920373295: ${"�#2�"}:START_TAG_DIV: ${"�I18N_EXP_ICU�"}:ICU@@7670372064920373295: ${"[�/#2�|�/#1:1��/*3:1�]"}:CLOSE_TAG_DIV:${"�*3:1��#1:1�"}:START_TAG_DIV_1: ${"�I18N_EXP_ICU�"}:ICU@@7670372064920373295: ${"[�/#2�|�/#1:1��/*3:1�]"}:CLOSE_TAG_DIV:`;
   }
 
   $I18N_0$ = $r3$.ɵɵi18nPostprocess($I18N_0$, {

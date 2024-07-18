@@ -3,15 +3,15 @@ consts: function() {
   let $I18N_0$;
   if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
       const $MSG_EXTERNAL_963542717423364282$$APP_SPEC_TS_0$ = goog.getMsg("\n    Some text\n    {$startTagSpan}Text inside span{$closeTagSpan}\n  ", {
-        "startTagSpan": "\uFFFD#3\uFFFD",
-        "closeTagSpan": "\uFFFD/#3\uFFFD"
+        "startTagSpan": "�#3�",
+        "closeTagSpan": "�/#3�"
       });
       $I18N_0$ = $MSG_EXTERNAL_963542717423364282$$APP_SPEC_TS_0$;
   }
   else {
       $I18N_0$ = $localize `
     Some text
-    ${"\uFFFD#3\uFFFD"}:START_TAG_SPAN:Text inside span${"\uFFFD/#3\uFFFD"}:CLOSE_TAG_SPAN:
+    ${"�#3�"}:START_TAG_SPAN:Text inside span${"�/#3�"}:CLOSE_TAG_SPAN:
   `;
   }
   return [

@@ -114,10 +114,10 @@ import * as i0 from "@angular/core";
 export class TestCmp {
 }
 TestCmp.Éµfac = i0.ÉµÉµngDeclareFactory({ minVersion: "12.0.0", version: "0.0.0-PLACEHOLDER", ngImport: i0, type: TestCmp, deps: [], target: i0.ÉµÉµFactoryTarget.Component });
-TestCmp.Éµcmp = i0.ÉµÉµngDeclareComponent({ minVersion: "12.0.0", version: "0.0.0-PLACEHOLDER", type: TestCmp, selector: "test-cmp", ngImport: i0, template: "<!--\n  NOTE: This template has escaped `\\r\\n` line-endings markers that will be converted to real `\\r\\n` line-ending chars when loaded from the test file-system.\n        This conversion happens in the monkeyPatchReadFile() function, which changes `fs.readFile()`.\n-->\n<div>\r\n  Some Message\r\n  Encoded character: \uD83D\uDE80\r\n</div>" });
+TestCmp.Éµcmp = i0.ÉµÉµngDeclareComponent({ minVersion: "12.0.0", version: "0.0.0-PLACEHOLDER", type: TestCmp, selector: "test-cmp", ngImport: i0, template: "<!--\n  NOTE: This template has escaped `\\r\\n` line-endings markers that will be converted to real `\\r\\n` line-ending chars when loaded from the test file-system.\n        This conversion happens in the monkeyPatchReadFile() function, which changes `fs.readFile()`.\n-->\n<div>\r\n  Some Message\r\n  Encoded character: í ½íº€\r\n</div>" });
 i0.ÉµÉµngDeclareClassMetadata({ minVersion: "12.0.0", version: "0.0.0-PLACEHOLDER", ngImport: i0, type: TestCmp, decorators: [{
             type: Component,
-            args: [{ selector: 'test-cmp', template: "<!--\n  NOTE: This template has escaped `\\r\\n` line-endings markers that will be converted to real `\\r\\n` line-ending chars when loaded from the test file-system.\n        This conversion happens in the monkeyPatchReadFile() function, which changes `fs.readFile()`.\n-->\n<div>\r\n  Some Message\r\n  Encoded character: \uD83D\uDE80\r\n</div>" }]
+            args: [{ selector: 'test-cmp', template: "<!--\n  NOTE: This template has escaped `\\r\\n` line-endings markers that will be converted to real `\\r\\n` line-ending chars when loaded from the test file-system.\n        This conversion happens in the monkeyPatchReadFile() function, which changes `fs.readFile()`.\n-->\n<div>\r\n  Some Message\r\n  Encoded character: í ½íº€\r\n</div>" }]
         }] });
 //# sourceMappingURL=escaped_chars.js.map
 /****************************************************************************************************
@@ -141,10 +141,10 @@ import * as i0 from "@angular/core";
 export class TestCmp {
 }
 TestCmp.Éµfac = i0.ÉµÉµngDeclareFactory({ minVersion: "12.0.0", version: "0.0.0-PLACEHOLDER", ngImport: i0, type: TestCmp, deps: [], target: i0.ÉµÉµFactoryTarget.Component });
-TestCmp.Éµcmp = i0.ÉµÉµngDeclareComponent({ minVersion: "12.0.0", version: "0.0.0-PLACEHOLDER", type: TestCmp, selector: "test-cmp", ngImport: i0, template: "<!--\n  NOTE: This template has escaped `\\r\\n` line-endings markers that will be converted to real `\\r\\n` line-ending chars when loaded from the test file-system.\n        This conversion happens in the monkeyPatchReadFile() function, which changes `fs.readFile()`.\n-->\n<div>\r\n  Some Message\r\n  Encoded character: \uD83D\uDE80\r\n</div>" });
+TestCmp.Éµcmp = i0.ÉµÉµngDeclareComponent({ minVersion: "12.0.0", version: "0.0.0-PLACEHOLDER", type: TestCmp, selector: "test-cmp", ngImport: i0, template: "<!--\n  NOTE: This template has escaped `\\r\\n` line-endings markers that will be converted to real `\\r\\n` line-ending chars when loaded from the test file-system.\n        This conversion happens in the monkeyPatchReadFile() function, which changes `fs.readFile()`.\n-->\n<div>\r\n  Some Message\r\n  Encoded character: í ½íº€\r\n</div>" });
 i0.ÉµÉµngDeclareClassMetadata({ minVersion: "12.0.0", version: "0.0.0-PLACEHOLDER", ngImport: i0, type: TestCmp, decorators: [{
             type: Component,
-            args: [{ selector: 'test-cmp', template: "<!--\n  NOTE: This template has escaped `\\r\\n` line-endings markers that will be converted to real `\\r\\n` line-ending chars when loaded from the test file-system.\n        This conversion happens in the monkeyPatchReadFile() function, which changes `fs.readFile()`.\n-->\n<div>\r\n  Some Message\r\n  Encoded character: \uD83D\uDE80\r\n</div>" }]
+            args: [{ selector: 'test-cmp', template: "<!--\n  NOTE: This template has escaped `\\r\\n` line-endings markers that will be converted to real `\\r\\n` line-ending chars when loaded from the test file-system.\n        This conversion happens in the monkeyPatchReadFile() function, which changes `fs.readFile()`.\n-->\n<div>\r\n  Some Message\r\n  Encoded character: í ½íº€\r\n</div>" }]
         }] });
 //# sourceMappingURL=escaped_chars.js.map
 /****************************************************************************************************

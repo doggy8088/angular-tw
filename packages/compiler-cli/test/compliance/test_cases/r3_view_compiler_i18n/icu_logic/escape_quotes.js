@@ -7,5 +7,5 @@ else {
     $I18N_0$ = $localize `{VAR_SELECT, select, single {'single quotes'} double {"double quotes"} other {other}}`;
 }
 $I18N_0$ = $r3$.ɵɵi18nPostprocess($I18N_0$, {
-  "VAR_SELECT": "\uFFFD0\uFFFD"
+  "VAR_SELECT": "�0�"
 });

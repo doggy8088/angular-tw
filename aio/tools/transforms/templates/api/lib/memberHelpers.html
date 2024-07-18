@@ -24,7 +24,7 @@
 
   {%- for ancestor in doc.extendsClauses %}{% if ancestor.doc %}
 
-  // 继承自 <a class="code-anchor" href="{$ ancestor.doc.path $}">{$ ancestor.doc.id $}</a>{$ renderMembers(ancestor.doc) $}{% endif %}{% endfor -%}
+  // 繼承自 <a class="code-anchor" href="{$ ancestor.doc.path $}">{$ ancestor.doc.id $}</a>{$ renderMembers(ancestor.doc) $}{% endif %}{% endfor -%}
 {%- endmacro -%}
 
 {%- macro renderMemberSyntax(member, truncateLines) -%}
@@ -54,18 +54,18 @@
     {$ ('**Deprecated** ' + overload.deprecated) | marked $}
   </div>{% endif %}
 
-  <h6 class="no-anchor">参数</h6>
+  <h6 class="no-anchor">引數</h6>
   {$ params.renderParameters(overload.parameterDocs, cssClass + '-parameters', cssClass + '-parameter', true) $}
 
   {%- if overload.type or overload.returns.type %}
-  <h6 class="no-anchor">返回值</h6>
+  <h6 class="no-anchor">回傳值</h6>
   {% marked %}`{$ (overload.type or overload.returns.type) $}`{% if overload.returns %}: {$ overload.returns.description $}{% endif %}{% endmarked %}
   {%- endif %}
 
   {%- if overload.throws.length %}
-  <h6 class="no-anchor">异常</h6>
+  <h6 class="no-anchor">異常</h6>
   {%- for error in overload.throws %}
-  {% marked %}`{$ (error.typeList or '错误') $}` {$ error.description $}{% endmarked %}
+  {% marked %}`{$ (error.typeList or '錯誤') $}` {$ error.description $}{% endmarked %}
   {%- endfor %}
   {%- endif %}
 
@@ -84,8 +84,8 @@
   <thead><tr><th>
     <div class="with-github-links">
       <h3>
-        {%- if method.isCallMember %}<i>调用签名</i>
-        {%- elseif method.isNewMember %}<i>构造函数签名</i>
+        {%- if method.isCallMember %}<i>呼叫簽名</i>
+        {%- elseif method.isNewMember %}<i>建構式函式簽名</i>
         {%- else %}{$ method.name $}()
         {%- endif -%}
       </h3>
@@ -142,10 +142,10 @@
       <td>
         <details class="overloads">
           <summary>
-            <h4 class="no-anchor">{$ method.overloads.length $} 个重载形式...</h4>
+            <h4 class="no-anchor">{$ method.overloads.length $} 個過載形式...</h4>
             <span class="actions">
-              <span class="action-expand">显示所有</span>
-              <span class="action-collapse">隐藏所有</span>
+              <span class="action-expand">顯示所有</span>
+              <span class="action-collapse">隱藏所有</span>
               <i class="material-icons expand">expand_more</i>
             </span>
           </summary>
@@ -178,7 +178,7 @@
   {%- if method.usageNotes %}
     <tr>
       <td class="usage-notes">
-        <h4 id="{$ method.anchor $}-usage-notes">使用说明</h4>
+        <h4 id="{$ method.anchor $}-usage-notes">使用說明</h4>
         {$ method.usageNotes | marked({ h3: 'h5' }) $}
       </td>
     </tr>
@@ -211,8 +211,8 @@
   <table class="is-full-width list-table property-table">
     <thead>
       <tr>
-        <th>{$ headings[0] or '属性' $}</th>
-        <th>{$ headings[1] or '说明' $}</th>
+        <th>{$ headings[0] or '屬性' $}</th>
+        <th>{$ headings[1] or '說明' $}</th>
       </tr>
     </thead>
     <tbody>
@@ -224,13 +224,13 @@
         </td>
         <td>
           {%- if (property.isGetAccessor or property.isReadonly) and not property.isSetAccessor %}
-          <span class='read-only-property'>只读</span>{% endif %}
+          <span class='read-only-property'>只讀</span>{% endif %}
 
           {%- if property.isSetAccessor and not property.isGetAccessor %}
-          <span class='write-only-property'>只写</span>{% endif %}
+          <span class='write-only-property'>只寫</span>{% endif %}
 
           {%- if property.constructorParamDoc %}
-          <span class='from-constructor'>声明在构造函数中</span>{% endif %}
+          <span class='from-constructor'>宣告在建構式函式中</span>{% endif %}
 
           {%- if property.shortDescription %}
           <div no-translate>{$ property.shortDescription | marked | trim $}</div>{% endif %}
@@ -241,7 +241,7 @@
           {%- endif %}
 
           {%- if property.see.length %}
-          <p>参见:</p>
+          <p>參見:</p>
           <ul>
             {%- for see in property.see %}
             <li>{$ see | marked $}</li>{% endfor %}
@@ -261,7 +261,7 @@
 {%- set nonInternalMembers = ancestor.doc[collectionName] | filterByPropertyValue('internal', undefined) -%}
 {%- if nonInternalMembers.length %}
 <section class="inherited-members-list">
-  <h3>继承自 <code><a class="code-anchor" href="{$ ancestor.doc.path $}">{$ ancestor.doc.name $}</a></code></h3>
+  <h3>繼承自 <code><a class="code-anchor" href="{$ ancestor.doc.path $}">{$ ancestor.doc.name $}</a></code></h3>
   <ul>
     {%- for member in nonInternalMembers %}
     <li>

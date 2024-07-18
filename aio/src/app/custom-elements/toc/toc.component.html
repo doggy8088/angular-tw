@@ -1,7 +1,7 @@
 <div *ngIf="type !== 'None'" class="toc-inner no-print" [class.collapsed]="isCollapsed">
 
   <div *ngIf="type === 'EmbeddedSimple'" class="toc-heading embedded">
-    目录
+    目錄
   </div>
 
   <button *ngIf="type === 'EmbeddedExpandable'" type="button" (click)="toggle(false)"
@@ -9,7 +9,7 @@
     title="Expand/collapse contents"
     aria-label="Expand/collapse contents"
     [attr.aria-pressed]="!isCollapsed">
-    目录
+    目錄
     <mat-icon class="rotating-icon" svgIcon="keyboard_arrow_right" [class.collapsed]="isCollapsed"></mat-icon>
   </button>
 

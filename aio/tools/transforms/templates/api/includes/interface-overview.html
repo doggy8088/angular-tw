@@ -5,6 +5,6 @@
 interface {$ doc.name $}{$ doc.typeParams | escape $}{$ memberHelper.renderHeritage(doc) $} {{$ memberHelper.renderMembers(doc) $}
 }
 </code-example>
-{$ descendants.renderDescendants(doc, 'interface', '子接口') $}
-{$ descendants.renderDescendants(doc, 'class', '实现类', true, r/class|directive|pipe|decorator/) $}
+{$ descendants.renderDescendants(doc, 'interface', '子介面') $}
+{$ descendants.renderDescendants(doc, 'class', '實現類', true, r/class|directive|pipe|decorator/) $}
 </section>

@@ -1,7 +1,7 @@
 decls: 4,
 vars: 0,
 consts: function() {
-  __i18nMsg__(' Hello {$startTagNgContainer}there {$startTagStrong}!{$closeTagStrong}{$closeTagNgContainer}', [['startTagNgContainer', String.raw`\uFFFD#2\uFFFD`], ['startTagStrong', String.raw`\uFFFD#3\uFFFD`], ['closeTagStrong', String.raw`\uFFFD/#3\uFFFD`], ['closeTagNgContainer', String.raw`\uFFFD/#2\uFFFD`]], {})
+  __i18nMsg__(' Hello {$startTagNgContainer}there {$startTagStrong}!{$closeTagStrong}{$closeTagNgContainer}', [['startTagNgContainer', String.raw`�#2�`], ['startTagStrong', String.raw`�#3�`], ['closeTagStrong', String.raw`�/#3�`], ['closeTagNgContainer', String.raw`�/#2�`]], {})
  return [
    $i18n_0$
  ];

@@ -1,7 +1,7 @@
 decls: 2,
 vars: 1,
 consts: function() {
-  __i18nMsg__('{$interpolation} title', [['interpolation', String.raw`\uFFFD0\uFFFD`]], {})
+  __i18nMsg__('{$interpolation} title', [['interpolation', String.raw`�0�`]], {})
   return [
     [__AttributeMarker.I18n__, "title"],
     ["title", $i18n_0$]

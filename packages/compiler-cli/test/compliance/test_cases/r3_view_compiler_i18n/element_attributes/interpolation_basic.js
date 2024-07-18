@@ -2,10 +2,10 @@ decls: 5,
 vars: 8,
 consts: function() {
   __i18nMsg__('static text', [], {})
-  __i18nMsg__('intro {$interpolation}', [['interpolation', String.raw`\uFFFD0\uFFFD`]], {meaning: 'm', desc: 'd'})
-  __i18nMsg__('{$interpolation}', [['interpolation', String.raw`\uFFFD0\uFFFD`]], {meaning: 'm1', desc: 'd1'})
-  __i18nMsg__('{$interpolation} and {$interpolation_1} and again {$interpolation_2}', [['interpolation', String.raw`\uFFFD0\uFFFD`],['interpolation_1', String.raw`\uFFFD1\uFFFD`],['interpolation_2', String.raw`\uFFFD2\uFFFD`]], {meaning: 'm2', desc: 'd2'})
-  __i18nMsg__('{$interpolation}', [['interpolation', String.raw`\uFFFD0\uFFFD`]], {})
+  __i18nMsg__('intro {$interpolation}', [['interpolation', String.raw`�0�`]], {meaning: 'm', desc: 'd'})
+  __i18nMsg__('{$interpolation}', [['interpolation', String.raw`�0�`]], {meaning: 'm1', desc: 'd1'})
+  __i18nMsg__('{$interpolation} and {$interpolation_1} and again {$interpolation_2}', [['interpolation', String.raw`�0�`],['interpolation_1', String.raw`�1�`],['interpolation_2', String.raw`�2�`]], {meaning: 'm2', desc: 'd2'})
+  __i18nMsg__('{$interpolation}', [['interpolation', String.raw`�0�`]], {})
 return [
     ["id", "dynamic-1", "aria-roledescription",  $i18n_0$, __AttributeMarker.I18n__,
       "title", "aria-label"],

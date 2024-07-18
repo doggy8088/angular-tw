@@ -14,7 +14,7 @@ function MyComponent_ng_template_2_Template(rf, ctx) {
 decls: 5,
 vars: 3,
 consts: function() {
-  __i18nMsg__('{$startTagNgTemplate}Template content: {$interpolation}{$closeTagNgTemplate}{$startTagNgContainer}Container content: {$interpolation_1}{$closeTagNgContainer}', [['startTagNgTemplate', String.raw`\uFFFD*2:1\uFFFD`], ['closeTagNgTemplate', String.raw`\uFFFD/*2:1\uFFFD`], ['startTagNgContainer', String.raw`\uFFFD#3\uFFFD`], ['interpolation_1', String.raw`\uFFFD0\uFFFD`], ['closeTagNgContainer', String.raw`\uFFFD/#3\uFFFD`], ['interpolation', String.raw`\uFFFD0:1\uFFFD`]], {})
+  __i18nMsg__('{$startTagNgTemplate}Template content: {$interpolation}{$closeTagNgTemplate}{$startTagNgContainer}Container content: {$interpolation_1}{$closeTagNgContainer}', [['startTagNgTemplate', String.raw`�*2:1�`], ['closeTagNgTemplate', String.raw`�/*2:1�`], ['startTagNgContainer', String.raw`�#3�`], ['interpolation_1', String.raw`�0�`], ['closeTagNgContainer', String.raw`�/#3�`], ['interpolation', String.raw`�0:1�`]], {})
   return [
     $i18n_0$
   ];

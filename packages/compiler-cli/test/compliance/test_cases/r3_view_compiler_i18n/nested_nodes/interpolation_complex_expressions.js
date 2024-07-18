@@ -1,5 +1,5 @@
 consts: function() {
-  __i18nMsg__(' {$interpolation} {$interpolation_1} {$interpolation_2} ', [['interpolation', String.raw`\uFFFD0\uFFFD`], ['interpolation_1', String.raw`\uFFFD1\uFFFD`], ['interpolation_2', String.raw`\uFFFD2\uFFFD`]], {})
+  __i18nMsg__(' {$interpolation} {$interpolation_1} {$interpolation_2} ', [['interpolation', String.raw`�0�`], ['interpolation_1', String.raw`�1�`], ['interpolation_2', String.raw`�2�`]], {})
   return [
     $i18n_0$
   ];

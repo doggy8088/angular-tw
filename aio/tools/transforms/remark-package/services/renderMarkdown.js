@@ -203,14 +203,4 @@ function rgxFindMatchPos(str, left, right, flags) {
 
 function createOpenMatcher(elementNameMatcher) {
   const attributeName = '[a-zA-Z_:][a-zA-Z0-9:._-]*';
-  const unquoted = '[^"\'=<>`\\u0000-\\u0020]+';
-  const singleQuoted = '\'[^\']*\'';
-  const doubleQuoted = '"[^"]*"';
-  const attributeValue = '(?:' + unquoted + '|' + singleQuoted + '|' + doubleQuoted + ')';
-  const attribute = '(?:\\s+' + attributeName + '(?:\\s*=\\s*' + attributeValue + ')?)';
-  return `<${elementNameMatcher}${attribute}*\\s*>`;
-}
-
-function createCloseMatcher(elementNameMatcher) {
-  return `</${elementNameMatcher}>`;
-}
+  const unquoted = '[^"\'=<>`\

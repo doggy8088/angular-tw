@@ -1,5 +1,5 @@
 consts: function() {
-  __i18nIcuMsg__('{VAR_SELECT, select, 10 {ten} 20 {twenty} other {{INTERPOLATION}}}', [['VAR_SELECT', String.raw`\uFFFD0\uFFFD`], ['INTERPOLATION', String.raw`\uFFFD1\uFFFD`]])
+  __i18nIcuMsg__('{VAR_SELECT, select, 10 {ten} 20 {twenty} other {{INTERPOLATION}}}', [['VAR_SELECT', String.raw`�0�`], ['INTERPOLATION', String.raw`�1�`]])
   return [
     $i18n_0$
   ];

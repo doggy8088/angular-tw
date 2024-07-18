@@ -40,7 +40,7 @@ function MyComponent_ng_template_2_Template(rf, ctx) {
 decls: 3,
 vars: 0,
 consts: function() {
-  __i18nMsgWithPostprocess__('{$startTagNgTemplate} Template A: {$interpolation} {$startTagNgTemplate} Template B: {$interpolation_1} {$startTagNgTemplate} Template C: {$interpolation_2} {$closeTagNgTemplate}{$closeTagNgTemplate}{$closeTagNgTemplate}', [['startTagNgTemplate', String.raw`[\uFFFD*2:1\uFFFD|\uFFFD*2:2\uFFFD|\uFFFD*1:3\uFFFD]`], ['closeTagNgTemplate', String.raw`[\uFFFD/*1:3\uFFFD|\uFFFD/*2:2\uFFFD|\uFFFD/*2:1\uFFFD]`], ['interpolation', String.raw`\uFFFD0:1\uFFFD`], ['interpolation_1', String.raw`\uFFFD0:2\uFFFD`], ['interpolation_2', String.raw`\uFFFD0:3\uFFFD`]], {}, [])
+  __i18nMsgWithPostprocess__('{$startTagNgTemplate} Template A: {$interpolation} {$startTagNgTemplate} Template B: {$interpolation_1} {$startTagNgTemplate} Template C: {$interpolation_2} {$closeTagNgTemplate}{$closeTagNgTemplate}{$closeTagNgTemplate}', [['startTagNgTemplate', String.raw`[�*2:1�|�*2:2�|�*1:3�]`], ['closeTagNgTemplate', String.raw`[�/*1:3�|�/*2:2�|�/*2:1�]`], ['interpolation', String.raw`�0:1�`], ['interpolation_1', String.raw`�0:2�`], ['interpolation_2', String.raw`�0:3�`]], {}, [])
   return [
     $i18n_0$
   ];

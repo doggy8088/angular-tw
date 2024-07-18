@@ -1,9 +1,9 @@
 decls: 7,
 vars: 5,
 consts: function() {
-  __i18nMsg__('My i18n block #{$interpolation}', [['interpolation', String.raw`\uFFFD0\uFFFD`]], {})
-  __i18nMsg__('My i18n block #{$interpolation}', [['interpolation', String.raw`\uFFFD0\uFFFD`]], {})
-  __i18nMsg__('My i18n block #{$interpolation}', [['interpolation', String.raw`\uFFFD0\uFFFD`]], {})
+  __i18nMsg__('My i18n block #{$interpolation}', [['interpolation', String.raw`�0�`]], {})
+  __i18nMsg__('My i18n block #{$interpolation}', [['interpolation', String.raw`�0�`]], {})
+  __i18nMsg__('My i18n block #{$interpolation}', [['interpolation', String.raw`�0�`]], {})
   return [
     $i18n_0$,
     $i18n_1$,

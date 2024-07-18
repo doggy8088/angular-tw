@@ -5,13 +5,13 @@ consts: function() {
   let $I18N_0$;
   if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
       const $MSG_EXTERNAL_7597881511811528589$$APP_SPEC_TS_0$ = goog.getMsg(" Named interpolation: {$phA} Named interpolation with spaces: {$phB} ", {
-        "phA": "\uFFFD0\uFFFD",
-        "phB": "\uFFFD1\uFFFD"
+        "phA": "�0�",
+        "phB": "�1�"
       });
       $I18N_0$ = $MSG_EXTERNAL_7597881511811528589$$APP_SPEC_TS_0$;
   }
   else {
-      $I18N_0$ = $localize ` Named interpolation: ${"\uFFFD0\uFFFD"}:PH_A: Named interpolation with spaces: ${"\uFFFD1\uFFFD"}:PH_B: `;
+      $I18N_0$ = $localize ` Named interpolation: ${"�0�"}:PH_A: Named interpolation with spaces: ${"�1�"}:PH_B: `;
   }
   return [
     $i18n_0$

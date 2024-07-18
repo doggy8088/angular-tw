@@ -11,7 +11,7 @@ function MyComponent_0_Template(rf, ctx) {
 }
 …
 consts: function() {
-  __i18nMsg__('Hello {$interpolation}', [['interpolation', String.raw`\uFFFD0\uFFFD`]], {})
+  __i18nMsg__('Hello {$interpolation}', [['interpolation', String.raw`�0�`]], {})
   return [
     [__AttributeMarker.Template__, "ngIf"],
     [__AttributeMarker.Bindings__, "title"],
